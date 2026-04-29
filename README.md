@@ -41,12 +41,12 @@ The dataset used in this study is available on **IEEE Dataport**. The provided d
 * **Contents:** The longitudinal dataset covers a nine-year period (2017–2025), including preprocessed benign domains (from Alexa/Tranco) and DGA domains (from DGArchive).
 
 **Important Directory Structure:**
-To ensure the provided scripts run correctly, the downloaded data must be organized as follows. Specifically, the `drift_input_eSLD` folder must be located directly inside the `dataset` directory:
+To ensure the provided scripts run correctly, the downloaded data must be organized as follows. Specifically, the `DRIFT_input_eSLD` folder must be located directly inside the `dataset` directory:
 
 ```text
 DRIFT/
 ├── dataset/
-│   └── drift_input_eSLD/        <-- Ready-to-use preprocessed data
+│   └── DRIFT_input_eSLD/        <-- Ready-to-use preprocessed data
 │       ├── T17_benign_train.parquet
 │       ├── T18_benign_train.parquet
 │       ├── T19_benign_train.parquet
@@ -115,7 +115,7 @@ Evaluation is conducted using a forward-chaining strategy, testing the model on 
 
 ```bash
 # Evaluate on data from 2020 to 2025
-python test.py --model_path 0428_1430/finetuning_0428_1430.pt --use_bf16 --no_wandb
+python test.py --model_path 0428_1430/finetuning_0428_1430.pt --use_bf16 --no_wandb --save
 ```
 
 > **Note on `--test_type`:** The default evaluation mode is `year`, which evaluates the model on the forward-chaining longitudinal datasets. Although the script also supports `--test_type family` for per-family performance analysis, the family-labeled dataset is not included in the public release. Therefore, only the default `year` mode is applicable with the provided dataset.
