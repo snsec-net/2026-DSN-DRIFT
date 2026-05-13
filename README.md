@@ -2,11 +2,11 @@
 
 This repository contains the official implementation of the paper **"DRIFT: Drift-Resilient Invariant-Feature Transformer for DGA Detection"**. 
 
-Authors: Chaeyoung Lee*, Chaeri Jung*, Seonghoon Jeong
-Advisor: Prof. Seonghoon Jeong
-(* Equal Contribution)
-📄 Paper (DSN 2026): Coming soon
-📄 arXiv: https://arxiv.org/abs/2605.10436
+- Authors: Chaeyoung Lee*, Chaeri Jung*, Seonghoon Jeong <br>
+  (* Equal Contribution)
+- Advisor: Prof. Seonghoon Jeong <br>
+- 📄 Paper (DSN 2026): Coming soon <br>
+- 📄 arXiv: https://arxiv.org/abs/2605.10436
 
 This study proposes **DRIFT**, a drift-resilient DGA detection framework that mitigates temporal performance degradation by leveraging a hybrid tokenization strategy (character-level and subword-level encodings) and multi-task self-supervised pre-training.
 
