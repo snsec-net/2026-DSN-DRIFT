@@ -2,9 +2,9 @@
 
 This repository contains the official implementation of the paper **"DRIFT: Drift-Resilient Invariant-Feature Transformer for DGA Detection"**. 
 
-- Authors: Chaeyoung Lee*, Chaeri Jung*, Seonghoon Jeong <br>
+- Authors: Chaeyoung Lee*, Chaeri Jung*, Seonghoon Jeong ([@alwaysY0ung](https://github.com/alwaysY0ung), [@jchaerry](https://github.com/jchaerry), [@seonghoony](https://github.com/seonghoony)) <br>
   (* Equal Contribution)
-- Advisor: Prof. Seonghoon Jeong <br>
+- Advisor: [Prof. Seonghoon Jeong](https://github.com/seonghoony) <br>
 - 📄 Paper (DSN 2026): Coming soon <br>
 - 📄 arXiv: https://arxiv.org/abs/2605.10436
 
