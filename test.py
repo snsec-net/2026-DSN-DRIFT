@@ -318,11 +318,11 @@ def main() :
     parser.add_argument("--test_type", type=str, choices=["year", "family"], default="year", help="Test type")
     parser.add_argument("--clf_norm", type=str, default='pool', choices=['cls', 'pool'])
     parser.add_argument("--use_bf16", action="store_true", help="Use bf16")
-    parser.add_argument("--save", type=bool, default=False, help="Save results")
+    parser.add_argument("--save", action="store_true", help="Save results")
     parser.add_argument("--project_name", type=str, default="proposal", help="Wandb project name")
     parser.add_argument("--run_name", type=str, default="run", help="Wandb run name")
     parser.add_argument("--no_wandb", action="store_true", help="Disable wandb logging")
-    parser.add_argument("--use_bert_pretokenizer", type=bool, default=False, help="Use BERT pretokenizer")
+    parser.add_argument("--use_bert_pretokenizer", action="store_true", help="Use BERT pretokenizer")
     parser.add_argument("--tokenizer_min_freq", type=int, default=0, help="Tokenizer min frequency")
     parser.add_argument("--tokenizer_vocab_size", type=int, default=30522, help="Tokenizer vocab size")
 
