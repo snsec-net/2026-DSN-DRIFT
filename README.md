@@ -1,6 +1,6 @@
 # DRIFT: Drift-Resilient Invariant-Feature Transformer for DGA Detection
 
-This repository contains the official implementation of the paper **"DRIFT: Drift-Resilient Invariant-Feature Transformer for DGA Detection"**. 
+This repository contains the official implementation of the paper **"DRIFT: Drift-Resilient Invariant-Feature Transformer for DGA Detection."** 
 
 - Authors: Chaeyoung Lee*, Chaeri Jung*, Seonghoon Jeong ([@alwaysY0ung](https://github.com/alwaysY0ung), [@jchaerry](https://github.com/jchaerry), [@seonghoony](https://github.com/seonghoony)) <br>
   (* Equal Contribution)
