@@ -12,6 +12,12 @@ This repository contains the official implementation of the paper **"DRIFT: Drif
 
 This study proposes **DRIFT**, a drift-resilient DGA detection framework that mitigates temporal performance degradation by leveraging a hybrid tokenization strategy (character-level and subword-level encodings) and multi-task self-supervised pre-training.
 
+<p align="center">
+  <img src="figure/architecture.png" alt="DRIFT dual-branch architecture" width="100%">
+</p>
+
+<p align="center"><em>Proposed dual-branch architecture: subword- and character-level Transformer encoders are pre-trained independently and then fused via pooled representations for binary classification.</em></p>
+
 ## Environment Setup
 
 This project is implemented using the **PyTorch** framework and leverages the **Hugging Face `transformers`** and **`tokenizers`** libraries.
