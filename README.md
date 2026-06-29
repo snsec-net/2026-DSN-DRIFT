@@ -6,7 +6,9 @@ This repository contains the official implementation of the paper **"DRIFT: Drif
   (* Equal Contribution)
 - Advisor: [Prof. Seonghoon Jeong](https://github.com/seonghoony) <br>
 - 📄 Paper (DSN 2026): Coming soon <br>
-- 📄 arXiv: https://arxiv.org/abs/2605.10436
+- 📄 arXiv: https://arxiv.org/abs/2605.10436 <br>
+- 🤗 Hugging Face Dataset: https://huggingface.co/datasets/snsec-net/dga-detection-drift26dsn <br>
+- 🤗 Hugging Face Model: https://huggingface.co/snsec-net/dga-detector-drift26dsn
 
 This study proposes **DRIFT**, a drift-resilient DGA detection framework that mitigates temporal performance degradation by leveraging a hybrid tokenization strategy (character-level and subword-level encodings) and multi-task self-supervised pre-training.
 
@@ -43,7 +45,9 @@ conda activate $ENV_NAME
 
 The dataset used in this study is available on **IEEE Dataport**. The provided data is **already fully preprocessed** (including deterministic Effective SLD extraction) and is ready to be used directly as input for the model.
 
-* **Dataset Link:** https://ieee-dataport.org/documents/longitudinal-benign-and-dga-domain-name-dataset
+* **Dataset Link (IEEE Dataport):** https://ieee-dataport.org/documents/longitudinal-benign-and-dga-domain-name-dataset
+* **Dataset Link (Hugging Face):** https://huggingface.co/datasets/snsec-net/dga-detection-drift26dsn
+* **Model (Hugging Face):** https://huggingface.co/snsec-net/dga-detector-drift26dsn
 * **Contents:** The longitudinal dataset covers a nine-year period (2017–2025), including preprocessed benign domains (from Alexa/Tranco) and DGA domains (from DGArchive).
 
 **Important Directory Structure:**
