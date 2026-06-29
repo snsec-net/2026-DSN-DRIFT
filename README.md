@@ -135,3 +135,29 @@ python test.py --model_path 0428_1430/finetuning_0428_1430.pt --use_bf16 --no_wa
 ```
 
 > **Note on `--test_type`:** The default evaluation mode is `year`, which evaluates the model on the forward-chaining longitudinal datasets. Although the script also supports `--test_type family` for per-family performance analysis, the family-labeled dataset is not included in the public release. Therefore, only the default `year` mode is applicable with the provided dataset.
+
+## Citation
+
+**Paper:**
+
+```bibtex
+@inproceedings{lee2026drift,
+  title     = {{DRIFT}: Drift-Resilient Invariant-Feature Transformer for {DGA} Detection},
+  author    = {Lee, Chaeyoung and Jung, Chaeri and Jeong, Seonghoon},
+  booktitle = {Proc. IEEE/IFIP International Conference on Dependable Systems and Networks (DSN)},
+  year      = {2026}
+}
+```
+
+**Dataset:**
+
+```bibtex
+@misc{lee2026driftdata,
+  author       = {Lee, Chaeyoung and Jung, Chaeri and Jeong, Seonghoon},
+  title        = {Longitudinal Benign and {DGA} Domain Name Dataset},
+  howpublished = {IEEE Dataport},
+  year         = {2026},
+  doi          = {10.21227/za2s-9e09},
+  url          = {https://dx.doi.org/10.21227/za2s-9e09}
+}
+```
